@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="page-intro page-frame"><div className="page-intro__marker">404</div><div className="page-intro__content"><p className="eyebrow">Index error</p><h1>Reference not found</h1><p className="lede">The requested page is not in this edition of the field guide.</p><p><Link href="/">Return to the main index.</Link></p></div></section>; }
